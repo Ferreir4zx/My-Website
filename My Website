@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Miguel Ferreira | Portfólio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-black text-white font-sans">
+
+  <!-- Seção: Boas-vindas -->
+  <section class="min-h-screen flex flex-col items-center justify-center text-center px-4">
+    <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="Foto Miguel" class="w-32 h-32 rounded-full mb-4 border-4 border-white">
+    <h1 class="text-4xl md:text-6xl font-bold mb-2">Miguel Ferreira</h1>
+    <p class="text-lg md:text-xl text-gray-300 mb-6">Desenvolvedor em formação. 17 anos. Apaixonado por tecnologia.</p>
+    <div class="flex gap-6 justify-center mb-8">
+      <a href="https://github.com/seuusuario" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" class="w-7 h-7" alt="GitHub">
+      </a>
+      <a href="https://linkedin.com/in/seuusuario" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" class="w-7 h-7" alt="LinkedIn">
+      </a>
+    </div>
+    <a href="#sobre" class="bg-white text-black px-6 py-2 rounded-xl hover:bg-gray-300 transition">Conheça mais ↓</a>
+  </section>
+
+  <!-- Seção: Sobre -->
+  <section id="sobre" class="py-20 px-6 text-center bg-gray-950">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Sobre Mim</h2>
+    <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+      Sou Miguel Ferreira, tenho 17 anos e estou estudando Engenharia de Software. Gosto de criar sites, aprender novas linguagens e resolver problemas através da programação. Busco crescer profissionalmente criando soluções úteis.
+    </p>
+  </section>
+
+  <!-- Seção: Projetos -->
+  <section id="projetos" class="py-20 px-6 text-center bg-gray-900">
+    <h2 class="text-3xl md:text-4xl font-bold mb-8">Projetos</h2>
+    <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition">
+        <h3 class="text-xl font-semibold mb-2">Projeto 1</h3>
+        <p class="text-gray-400 mb-3">Descrição breve do projeto. Pode ser um site, sistema ou app.</p>
+        <a href="#" class="text-blue-400 hover:underline">Ver projeto →</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition">
+        <h3 class="text-xl font-semibold mb-2">Projeto 2</h3>
+        <p class="text-gray-400 mb-3">Projetos Desenvolvidos.</p>
+        <a href="#" class="text-blue-400 hover:underline">Ver projeto →</a>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition">
+        <h3 class="text-xl font-semibold mb-2">Projeto 3</h3>
+        <p class="text-gray-400 mb-3">Link Github</p>
+        <a href="#" class="text-blue-400 hover:underline">Ver projeto →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção: Currículo -->
+  <section id="curriculo" class="py-20 px-6 text-center bg-gray-950">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">Currículo</h2>
+    <p class="text-gray-300 max-w-xl mx-auto mb-4">Veja minhas experiências, estudos e habilidades técnicas no meu currículo.</p>
+    <a href="https://link-doc-curriculo.com" class="bg-white text-black px-6 py-2 rounded-xl hover:bg-gray-300 transition" target="_blank">Ver Currículo PDF</a>
+  </section>
+
+  <!-- Seção: Contato -->
+  <section id="contato" class="py-20 px-6 text-center bg-black">
+    <h2 class="text-3xl md:text-4xl font-bold mb-6">Contato</h2>
+    <p class="text-gray-300 mb-4">Quer bater um papo, me contratar ou fazer uma parceria?</p>
+    <a href="miguelferreiracontas@gmail.com" class="text-blue-400 text-lg hover:underline">seuemail@gmail.com</a>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="py-6 text-center text-gray-500 text-sm bg-gray-900">
+    © 2025 Miguel Ferreira. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
